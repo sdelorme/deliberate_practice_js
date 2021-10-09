@@ -30,7 +30,21 @@ const _ = {
       return string;
     }
   },
+  has(object, key) {
+    let hasValue = object[key];
+    if (hasValue != undefined) {
+      return true;
+    } else {
+      return false;
+    }
+  },
 };
+
+
+
+
+
+
 
 
 
