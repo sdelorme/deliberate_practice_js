@@ -32,7 +32,7 @@ const _ = {
   },
   has(object, key) {
     let hasValue = object[key];
-    if (hasValue != undefined) {
+    if (hasValue !== undefined) {
       return true;
     } else {
       return false;
