@@ -51,12 +51,33 @@
 # stop whren we hit the index from input integer 
 # return the value that we stopped on
 
-def fib_index(integer)
-  arr = [0,1]
-  while arr.length < integer
-    arr << arr[-1] + arr [-2]
-  end
-  return arr[-1]
-end
+# def fib_index(integer)
+#   arr = [0,1]
+#   while arr.length < integer
+#     arr << arr[-1] + arr [-2]
+#   end
+#   return arr[-1]
+# end
 
-puts fib_index(10)
+# puts fib_index(10)
+
+# Write a function that returns the sum of all numbers in a given array.
+
+# NOTE: Do not use any built-in language functions that do this automatically for you.
+
+# Input: [1, 2, 3, 4]
+# Output: 10
+
+# Explanation: (1 + 2 + 3 + 4) = 10
+# arr = [1, 2, 3, 4]
+# def sum_arr(arr)
+#   i = 0
+#   sum = 0
+#   while i < arr.length
+#     sum += arr[i]
+#     i+=1
+#   end
+#   return sum
+# end
+
+# puts sum_arr(arr)
