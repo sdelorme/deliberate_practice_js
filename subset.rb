@@ -2,6 +2,8 @@
 
 # NOTE: You must accomplish this in O(n) time. This is also known as linear time.
 
+# DID NOT DO THIS WITH HASH YET
+
 # Input: [1, 2, 3, 4, 5, 6], [6, 3, 2]
                                
 # Output: true
@@ -20,20 +22,20 @@
 #if yes, move on to next index of second array cntd
 
 
-def is_subset(arr1,arr2)
-  arr2.each do |num|
-    found = false
-    arr1.each do |num2|
-      if num == num2
-        found = true
-        break
-      end
-    end
-    if found == false
-      return false
-    end
-  end
-  return true
-end
+# def is_subset(arr1,arr2)
+#   arr2.each do |num|
+#     found = false
+#     arr1.each do |num2|
+#       if num == num2
+#         found = true
+#         break
+#       end
+#     end
+#     if found == false
+#       return false
+#     end
+#   end
+#   return true
+# end
 
-p is_subset([6, 3, 2], [2, 2, 2, 2, 2, 2])
+# p is_subset([6, 3, 2], [2, 2, 2, 2, 2, 2])
