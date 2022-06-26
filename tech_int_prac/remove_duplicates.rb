@@ -56,7 +56,9 @@ def remove_duplicates(nums)
   end
   k = new_arr.length
   k
-  p new_arr
+  # p new_arr
+  # p duplicate_hash
+  # p k
 end
 
 remove_duplicates([0,0,1,1,1,2,2,3,3,4])
