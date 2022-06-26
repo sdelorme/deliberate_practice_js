@@ -28,6 +28,21 @@
 # @param {String} haystack
 # @param {String} needle
 # @return {Integer}
+# 
+
+# my first attempt
+# def str_str(haystack, needle)
+#   return 0 if needle.empty?
+#   i = 0
+#   if haystack.include? needle
+#     i = haystack.index(needle[0])
+#   else
+#     i = -1
+#   end
+#   i 
+# end
+
+
 def str_str(haystack, needle)
   return 0 if needle.empty?
   needle_length = needle.length
@@ -44,4 +59,5 @@ def str_str(haystack, needle)
   return -1
 end
 
+str_str("mississippi", "issip")
 str_str("mississippi", "issip")
