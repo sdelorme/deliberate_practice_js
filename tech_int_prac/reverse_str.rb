@@ -21,6 +21,22 @@
 
 # @param {Character[]} s
 # @return {Void} Do not return anything, modify s in-place instead.
+# def reverse_string(s)
+#   i = 0
+#   j = s.length - 1
+#   until i >= j
+#     s[i], s[j] = s[j], s[i]
+#     j -= 1
+#     i += 1
+#   end
+#   s
+# end
+
+# reverse_string(["h","e","l","l","o"])
+#                 # i                j
+#                 #       i       j
+
+
 def reverse_string(s)
   i = 0
   j = s.length - 1
@@ -29,9 +45,7 @@ def reverse_string(s)
     j -= 1
     i += 1
   end
-  s
+  p s
 end
 
-reverse_string(["h","e","l","l","o"])
-                # i                j
-                #       i       j
+reverse_string("What is eating Gilbert Grape")
