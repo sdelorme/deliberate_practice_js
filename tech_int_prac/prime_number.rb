@@ -10,6 +10,7 @@
 # 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97
 
 def is_prime?(n)
+  return "1 is a special friend" if n == 1
   is_prime = true
   i = 2
   while i < n
@@ -19,7 +20,7 @@ def is_prime?(n)
     end
     i += 1
   end
-  p is_prime
+  is_prime
 end
 
-is_prime?(7)
+puts is_prime?(7)
