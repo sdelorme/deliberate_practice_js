@@ -29,7 +29,7 @@ def palindrome_check(str)
   right = str.length-1
   status = false
   while left < right
-    if str[left].downcase == str [right].downcase
+    if str[left].downcase == str[right].downcase
       status = true
     end
     left += 1
