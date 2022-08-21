@@ -13,4 +13,4 @@ function palindrome(S) {
   console.log(palindromeStatus);
 }
 
-palindrome("car");
+palindrome("abc cba");
