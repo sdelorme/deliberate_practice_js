@@ -17,21 +17,8 @@
 
 // function takes in an array of strings
 // store the value of the first element in the array in a variable
-// check the entire value, if not, check the value with one less char and continue to decrement
+// check the entire value, if not, check the value with one less char and continue to increment to next str in array
 // move on to the next element in the array and repeat with the new value
-
-
-// return "" if strs.length == 0
-//   prefix = ""
-//   first = strs[0]
-//   for i in 0..first.length-1
-//     if strs.all?{|x| x[i] == first[i]}
-//       prefix += first[i]
-//     else
-//       break
-//     end
-//   end
-//   prefix
 
 
 var longestCommonPrefix = function(strs) {
@@ -47,4 +34,4 @@ var longestCommonPrefix = function(strs) {
 console.log(longestCommonPrefix(["flower", "flowers", "flight"]));
 
 // i = 0 currentChar = y longestPrefix = yes
-// i = 1
+// i = 1                                                                                    
