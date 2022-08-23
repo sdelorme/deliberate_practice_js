@@ -39,6 +39,7 @@
 // }
 
 var mergeTwoLists = function(list1, list2) {
+  // eslint-disable-next-line no-undef
   let newList = new ListNode(0);
   let newListHead = newList;
   while (list1 !== null && list2 !== null) {
